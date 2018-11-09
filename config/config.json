@@ -1,0 +1,18 @@
+{
+  "development": {
+    "username": "root",
+    "database": "blog_development",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "database": "blog_test",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "database": "blog_production",
+    "dialect": "mysql"
+  }
+}
