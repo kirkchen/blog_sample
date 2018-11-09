@@ -2,17 +2,19 @@
   "development": {
     "username": "root",
     "database": "blog_development",
-    "host": "127.0.0.1",
+    "host": "db",
     "dialect": "mysql"
   },
   "test": {
     "username": "root",
     "database": "blog_test",
+    "host": "db",
     "dialect": "mysql"
   },
   "production": {
     "username": "root",
     "database": "blog_production",
+    "host": "db",
     "dialect": "mysql"
   }
 }

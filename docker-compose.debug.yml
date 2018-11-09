@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  api:
+    image: blog_sample
+    build: .
+    volumes:
+      - .:/usr/src/app
+    ports:
+      - 3000:3000
+      - 9229:9229
+    command: nodemon -L --inspect=0.0.0.0:9229 index.js
